@@ -1,0 +1,16 @@
+.container {
+    min-height: 100vh;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.isEven {
+    background-color: pink;
+}
+
+.isOdd {
+    background-color: oldlace;
+}
