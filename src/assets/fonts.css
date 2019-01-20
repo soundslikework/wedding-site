@@ -1,10 +1,12 @@
 
 h1, h2 {
     font-family: 'Fredericka the Great', cursive;
+    text-align: center;
 }
 h3 {
     font-family: 'Niconne', cursive;
     /* font-family: 'Sacramento', cursive; */
+    text-align: center;
 }
 
 p {
