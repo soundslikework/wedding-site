@@ -1,0 +1,23 @@
+
+h1, h2 {
+    font-family: 'Fredericka the Great', cursive;
+}
+h3 {
+    font-family: 'Niconne', cursive;
+    /* font-family: 'Sacramento', cursive; */
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    padding: 1em 50px;
+    margin: 10px;
+}
+
+div[class*="Container_main__"] h1, div[class*="Container_main__"] h2, div[class*="Container_main__"] h3, div[class*="Container_main__"] p {
+    color: var(--main-text-color);
+}
+
+div[class*="Container_secondary__"] h1, div[class*="Container_secondary__"] h2, div[class*="Container_secondary__"] h3, div[class*="Container_secondary__"] p {
+    color: var(--secondary-text-color);
+}

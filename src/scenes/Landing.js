@@ -7,6 +7,9 @@ import Login from '../components/Login'
 import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
 
+import './../assets/variables.css';
+import './../assets/fonts.css';
+
 class Landing extends Component {
   render() {
     return (
