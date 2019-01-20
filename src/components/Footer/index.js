@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Container from '../Container';
-import Copy from '../Copy';
 
 const Footer = (props) => {
     return (
         <Container index={props.index}>
-            <Copy>Contact and Footer. This'll have my email</Copy>
+            <h2>Footer</h2>
+            <h3>Also contact</h3>
+            <p>This'll have my email and a little thank you for visiting.</p>
         </Container>
     );
 };

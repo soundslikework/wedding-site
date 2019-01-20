@@ -7,10 +7,10 @@
     align-items: center;
 }
 
-.isEven {
-    background-color: pink;
+.main {
+    background-color: oldlace;
 }
 
-.isOdd {
-    background-color: oldlace;
+.secondary {
+    background-color: #333;
 }

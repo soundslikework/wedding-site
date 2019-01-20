@@ -1,12 +1,13 @@
 import React from 'react';
 
 import Container from '../Container';
-import Copy from '../Copy';
 
 const Hero = (props) => {
     return (
         <Container index={props.index}>
-            <Copy>Hero. This will have a photo of us, a title, and a welcome message</Copy>
+            <h1>HERO</h1>
+            <h3>Introduction</h3>
+            <p>This will have a photo of us, a title, and a welcome message</p>
         </Container>
     );
 };
